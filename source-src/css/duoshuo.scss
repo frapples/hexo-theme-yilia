@@ -8,3 +8,29 @@
 	text-decoration: none;
 	line-height: 18px!important;
 }
+
+
+// share_shuoshuo
+#container .share {
+    padding: 3px 10px;
+}
+.share {
+    margin-bottom: 5px;
+}
+.share#ds-share #ds-reset.ds-share-inline ul.ds-share-icons-32 {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.share#ds-share #ds-reset.ds-share-inline ul.ds-share-icons-32 li {
+    list-style: none;
+}
