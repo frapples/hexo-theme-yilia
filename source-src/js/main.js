@@ -7,12 +7,14 @@ var browser = require('./browser')
 var fixPage = require('./fix-page')
 var mobile = require('./mobile')
 var viewer = require('./viewer')
+var toc = require('./toc')
 
 $(function() {
 	viewer.init()
 	archiveInner.init()
 	fixPage.init()
 	tags.init()
+    toc.init()
 	if(browser.versions.mobile === true || $(window).width() < 700){
 		mobile.init()
 	}else{

@@ -15,6 +15,17 @@
           <a <% if (!theme.excerpt_link){ %>class="hidden"<% } %> href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %> >></a>
         </p>
       <% } else { %>
+
+          <% if (!index && theme.toc){ %>
+              <div class="toc-article">
+                  <strong class="toc-title">目录</strong>
+                  (<a class="js-toggle-toc" href="javascript:void(0)"></a>)
+                  <div class="toc-content">
+                      <%- toc(post.content, {list_number: false}) %>
+                  </div>
+              </div>
+          <% } %>
+
         <%- post.content %>
       <% } %>
     </div>

@@ -51,6 +51,8 @@ share_duoshuo: true
 #若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
 duoshuo: false
 
+toc: true
+
 # 如不需要，将该项置为false
 # 比如
 #smart_menu:

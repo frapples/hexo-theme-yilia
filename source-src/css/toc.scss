@@ -1,0 +1,26 @@
+.toc-article {
+    line-height: 1.5em;
+    font-size: 1em;
+    float: right;
+}
+
+.toc-article strong {
+    padding: 0.3em 0;
+}
+.toc-article ol, .toc-article li {
+    margin: 0 0 0 0.2em;
+    list-style-type: none;
+}
+
+.toc-article ol li:before {
+    display: none;
+}
+
+.toc-article {
+    background: #eee;
+    margin: 0 0 0 0.2em;
+    padding: 1em;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
